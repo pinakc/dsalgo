@@ -23,16 +23,12 @@ public class BinaryTree {
         private int data;
         private TreeNode left;
         private TreeNode right;
-        STATE state;
+
 
         public TreeNode(int data) {
             this.data = data;
-            this.state = STATE.NEW;
-        }
-    }
 
-    private enum STATE{
-        NEW,INQ,VISITED
+        }
     }
 
     /**
