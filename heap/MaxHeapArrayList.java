@@ -30,6 +30,7 @@ public class MaxHeapArrayList<T extends Comparable> {
                 //swap elements
                 a.set(p, item);
                 a.set(k, parent);
+                k = p;
             } else {
                 break;
             }
