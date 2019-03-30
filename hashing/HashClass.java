@@ -12,7 +12,7 @@ public class HashClass {
     }
 
     public int hashString(String s){
-        long hash = 5281l;
+        long hash = 5381l;
         for(int i=0;i<s.length();i++) {
             hash = 31 * s.charAt(i) + hash;
             hash = hash % M;
