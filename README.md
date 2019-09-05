@@ -1,2 +1,2 @@
 # dsalgo
-data structures and algos practice
+data structures and algos
